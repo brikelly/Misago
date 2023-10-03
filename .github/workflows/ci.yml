@@ -7,7 +7,7 @@ on:
       - master
 
 jobs:
-  record-appmaps:
+  test:
     runs-on: ubuntu-latest
     
     strategy:
