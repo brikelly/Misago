@@ -40,4 +40,5 @@ jobs:
           POSTGRES_PASSWORD: misago
           POSTGRES_HOST: localhost
         run: | 
+          pip install pytest
           pytest --no-cov --splits 18 --group ${{ matrix.group }} 
